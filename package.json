@@ -4,8 +4,13 @@
   "version": "1.0.0",
   "main": "./app.js",
   "private": false,
+  "repository" : { 
+      "type" : "git", 
+      "url" : "http://github.com/huguesf/node-express-example"
+  },
   "dependencies": {
-    "express": "3.4.4"
+    "express": "3.4.4",
+    "mustache": "~0.8.1"
   },
   "engines": {
     "node": "0.8.x",
@@ -13,6 +18,7 @@
   },
   "devDependencies": {
     "request": "2.27.0",
+    "mustache": "~0.8.1",
     "jasmine-node": "1.11.0"
   },
   "scripts": {
